@@ -1,0 +1,16 @@
+.bar {
+  display: grid;
+  grid-template-columns: 1fr 180px 120px;
+  gap: 0.75rem;
+  padding: 0.75rem;
+}
+@media (max-width: 640px) {
+  .bar {
+    grid-template-columns: 1fr;
+  }
+}
+.right {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}

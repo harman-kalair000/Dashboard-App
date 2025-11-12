@@ -1,0 +1,22 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 88px 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+.avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+.field {
+  margin: 0.3rem 0;
+}
+.label {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.value {
+  font-weight: 600;
+}
