@@ -74,7 +74,6 @@ export default function App() {
         </aside>
       </div>
 
-      {/* Also provide a modal detail for mobile */}
       <Modal
         title={selected ? selected.name : "User details"}
         open={!!selected}
