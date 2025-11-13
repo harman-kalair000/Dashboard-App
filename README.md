@@ -17,5 +17,5 @@ A small, scalable dashboard that lists users, supports role filtering & search, 
 ```bash
 # Create the app from this source or copy files into a new folder
 npm install
-npm run dev
+npm start
 ```
